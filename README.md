@@ -1,21 +1,19 @@
 
 # 📝 TaskManager Web App
 
-A full-stack web application to manage personal tasks with user authentication, built using PHP, MySQL, HTML, CSS, Bootstrap and deployed live using InfinityFree.
+A full-stack task management web application with user authentication, built using PHP, MySQL, HTML, CSS, and Bootstrap — deployed live using InfinityFree.
 
-### 🌐 Live Demo:
-🔗 [https://taskmanagerweb.fwh.is](https://taskmanagerweb.fwh.is)
+🔗 **Live Demo:** [https://taskmanagerweb.fwh.is](https://taskmanagerweb.fwh.is)
 
 ---
 
 ## 🚀 Features
 
-- 🔐 Secure user registration and login
-- ➕ Add tasks with deadlines and descriptions
-- 🖊️ Edit and update existing tasks
-- ❌ Delete tasks
-- ✅ Mark tasks as completed
-- 🧑‍💻 User-specific task dashboard with session handling
+- 🔐 User registration and login with session handling
+- 🧾 Add, edit, delete, and mark tasks as complete
+- 📋 User-specific task dashboards
+- 🎨 Responsive design with Bootstrap
+- 🌍 Hosted live using InfinityFree + MySQL
 
 ---
 
@@ -24,22 +22,13 @@ A full-stack web application to manage personal tasks with user authentication, 
 | Frontend      | Backend       | Database  | Hosting        |
 |---------------|---------------|-----------|----------------|
 | HTML, CSS     | PHP           | MySQL     | InfinityFree   |
-| Bootstrap 5   | XAMPP (local) | phpMyAdmin| File Manager / FTP |
-
----
-
-## 📸 Screenshots
-
-| Login Page | Dashboard |
-|------------|-----------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
-
-> 📌 Add these screenshots to a `screenshots/` folder in your repo if you want GitHub previews.
+| Bootstrap     | XAMPP (Local) | phpMyAdmin| FTP / File Manager |
 
 ---
 
 ## 📁 Project Structure
-'''bash
+
+```bash
 taskmanager/
 ├── index.php              # Login Page
 ├── register.php           # User Registration Page
@@ -49,11 +38,20 @@ taskmanager/
 ├── delete_task.php        # Script to delete a task
 ├── logout.php             # Ends user session
 ├── db.php                 # Database connection (reused across pages)
-├── screenshots/           # Screenshots for GitHub README (if included)
+├── style.css              # Optional: custom styling
+├── screenshots/           # Screenshots for GitHub README (optional)
 │   ├── login.png
 │   └── dashboard.png
 └── README.md              # Project documentation
-'''
+
+
+## 📸 Screenshots
+
+| Login Page | Dashboard |
+|------------|-----------|
+| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+
+> 📌 Add these screenshots to a `screenshots/` folder in your repo if you want GitHub previews.
 
 ---
 
