@@ -39,6 +39,7 @@ A full-stack web application to manage personal tasks with user authentication, 
 ---
 
 ## 📁 Project Structure
+'''bash
 taskmanager/
 ├── index.php              # Login Page
 ├── register.php           # User Registration Page
