@@ -40,14 +40,18 @@ A full-stack web application to manage personal tasks with user authentication, 
 
 ## 📁 Project Structure
 taskmanager/
-├── index.php # Login Page
-├── register.php # User Registration
-├── dashboard.php # User-specific task page
-├── db.php # DB connection
-├── add_task.php # Add Task
-├── edit_task.php # Edit Task
-├── delete_task.php # Delete Task
-└── logout.php # End session
+├── index.php              # Login Page
+├── register.php           # User Registration Page
+├── dashboard.php          # User Dashboard (after login)
+├── add_task.php           # Script to add a new task
+├── edit_task.php          # Script to edit existing task
+├── delete_task.php        # Script to delete a task
+├── logout.php             # Ends user session
+├── db.php                 # Database connection (reused across pages)
+├── screenshots/           # Screenshots for GitHub README (if included)
+│   ├── login.png
+│   └── dashboard.png
+└── README.md              # Project documentation
 
 
 ---
