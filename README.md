@@ -50,7 +50,7 @@ taskmanager/
 
 | Login Page | Dashboard |
 |------------|-----------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](/login.png) | ![Dashboard](/dashboard.png) |
 
 > 📌 Add these screenshots to a `screenshots/` folder in your repo if you want GitHub previews.
 
